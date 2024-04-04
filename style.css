@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+.link {
+    font-size: 18px;
+    
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
