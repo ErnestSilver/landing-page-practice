@@ -112,3 +112,36 @@ a {
     font-weight: 700;
     margin-top: 25px;
 }
+.action-section {
+    display: flex;
+    justify-content: center;
+}
+
+.action-box {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #3882F6;
+    width: 55rem;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.action-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid 1px #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    font-size: 18px;
+}
+.action-txt-main {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.action-txt-secondary {
+    color: #E5E7EB;
+    font-size: 18px;    
+}
