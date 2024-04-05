@@ -91,3 +91,24 @@ a {
     margin-top: 10px;
     margin-bottom: 120px;
 }
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.quote-text {
+    padding-top: 150px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 50%;
+}
+.quote-author {
+    padding-bottom: 150px;
+    align-self: self-end;
+    width: 30%;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+}
